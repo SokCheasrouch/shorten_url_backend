@@ -13,7 +13,9 @@
     "paths": {
       "@modules/*": ["src/modules/*"],
       "@app/common": ["libs/common/src"],
-      "@app/common/*": ["libs/common/src/*"]
+      "@app/common/*": ["libs/common/src/*"],
+      "@app/database": ["libs/database/src"],
+      "@app/database/*": ["libs/database/src/*"]
     },
     "incremental": true,
     "skipLibCheck": true,
